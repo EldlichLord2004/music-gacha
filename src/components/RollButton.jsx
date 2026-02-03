@@ -15,7 +15,7 @@ const RollButton = ({ onClick, disabled, isRolling }) => {
       {isRolling ? (
         <RefreshCw className="animate-spin" size={28} />
       ) : (
-        <><Play fill="white" size={24} className="group-hover:translate-x-1 transition-transform" /> QUAY THƯỞNG</>
+        <><Play fill="white" size={24} className="group-hover:translate-x-1 transition-transform" /> LET'S GO GAMBLING</>
       )}
     </button>
   );
