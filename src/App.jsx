@@ -49,7 +49,9 @@ function App() {
       </div>
 
       {/* Trình phát nhạc ẩn (vẫn gọi để nhạc tự phát) */}
-      {!isRolling && result && <MusicPlayer videoId={result.videoId} />}
+      {!isRolling && result && (
+        <MusicPlayer videoId={result.videoId} thumbnail={result.thumbnail} />
+      )}
 
       {/* Loading khi mới vào trang */}
       {allSongs.length === 0 && (
